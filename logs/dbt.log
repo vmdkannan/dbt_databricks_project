@@ -1,0 +1,73 @@
+[0m11:52:32.361632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1ca061df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1c98df7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1ca29fe30>]}
+
+
+============================== 11:52:32.401616 | 5f6c49b5-8777-4766-ba3e-566c50005e90 ==============================
+[0m11:52:32.401616 [info ] [MainThread]: Running with dbt=1.11.3
+[0m11:52:32.402206 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'use_experimental_parser': 'False', 'version_check': 'True', 'write_json': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init', 'quiet': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'debug': 'False', 'printer_width': '80', 'log_cache_events': 'False', 'no_print': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/student/.dbt', 'partial_parse': 'True', 'introspect': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'log_path': 'logs'}
+[0m11:53:10.555987 [debug] [MainThread]: Starter project path: /home/student/Documents/AI/LLM/LLM-E2EProject-Pipeline/dbt-prj/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:53:10.565827 [info ] [MainThread]: 
+Your new dbt project "dbt_dtbrk_prj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:53:10.566569 [info ] [MainThread]: Setting up your profile.
+[0m11:53:14.556041 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:53:14.556651 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:53:14.557102 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:54:52.381496 [info ] [MainThread]: Profile dbt_dtbrk_prj written to /home/student/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:54:52.394912 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 140.08363, "process_in_blocks": "21736", "process_kernel_time": 1.022665, "process_mem_max_rss": "294980", "process_out_blocks": "43568", "process_user_time": 4.48003}
+[0m11:54:52.396685 [debug] [MainThread]: Command `dbt init` succeeded at 11:54:52.396490 after 140.09 seconds
+[0m11:54:52.397413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1a3213ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1a35282c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1c941bb60>]}
+[0m11:54:52.398128 [debug] [MainThread]: Flushing usage events
+[0m11:54:53.008403 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:55:02.558544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73393c066870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73393bcb7b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73393b1ea4b0>]}
+
+
+============================== 11:55:02.563960 | 14756e4a-6c1f-42c2-bcf6-0a483f52cf3b ==============================
+[0m11:55:02.563960 [info ] [MainThread]: Running with dbt=1.11.3
+[0m11:55:02.564897 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'write_json': 'True', 'use_colors': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'profiles_dir': '/home/student/.dbt', 'introspect': 'True', 'log_format': 'default', 'empty': 'None', 'partial_parse': 'True', 'quiet': 'False', 'cache_selected_only': 'False', 'log_path': 'logs', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'printer_width': '80'}
+[0m11:55:02.578796 [info ] [MainThread]: dbt version: 1.11.3
+[0m11:55:02.579363 [info ] [MainThread]: python version: 3.12.12
+[0m11:55:02.579832 [info ] [MainThread]: python path: /home/student/Documents/AI/LLM/LLM-E2EProject-Pipeline/dbt-prj/.venv/bin/python3
+[0m11:55:02.580486 [info ] [MainThread]: os info: Linux-6.8.0-94-generic-x86_64-with-glibc2.35
+[0m11:55:03.393721 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:55:03.394239 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:55:03.394650 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:55:03.899241 [info ] [MainThread]: Using profiles dir at /home/student/.dbt
+[0m11:55:03.899849 [info ] [MainThread]: Using profiles.yml file at /home/student/.dbt/profiles.yml
+[0m11:55:03.900278 [info ] [MainThread]: Using dbt_project.yml file at /home/student/Documents/AI/LLM/LLM-E2EProject-Pipeline/dbt-prj/dbt_project.yml
+[0m11:55:03.900693 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m11:55:03.901494 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.4055587, "process_in_blocks": "400", "process_kernel_time": 0.354333, "process_mem_max_rss": "227960", "process_out_blocks": "72", "process_user_time": 2.99549}
+[0m11:55:03.902214 [debug] [MainThread]: Command `dbt debug` failed at 11:55:03.902120 after 1.41 seconds
+[0m11:55:03.902592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73393bc1e960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7339138651f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7339139bf320>]}
+[0m11:55:03.902982 [debug] [MainThread]: Flushing usage events
+[0m11:55:04.517539 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:38:45.406077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7998a0f76630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7998a0ca7230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7998a22029c0>]}
+
+
+============================== 19:38:45.409695 | e36cf538-ea4c-4abb-9e7f-25ae8f68cbc2 ==============================
+[0m19:38:45.409695 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:38:45.410182 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'fail_fast': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'debug': 'False', 'use_colors': 'True', 'write_json': 'True', 'cache_selected_only': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'static_parser': 'True', 'no_print': 'None', 'partial_parse': 'True', 'warn_error': 'None', 'log_path': 'logs', 'target_path': 'None', 'introspect': 'True', 'profiles_dir': '/home/student/.dbt', 'printer_width': '80', 'quiet': 'False', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False'}
+[0m19:38:45.410771 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/student/Documents/AI/LLM/LLM-E2EProject-Pipeline/dbt-prj/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:38:45.411648 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.05591702, "process_in_blocks": "32", "process_kernel_time": 0.131793, "process_mem_max_rss": "98816", "process_out_blocks": "16", "process_user_time": 1.161232}
+[0m19:38:45.412152 [debug] [MainThread]: Command `dbt run` failed at 19:38:45.412020 after 0.06 seconds
+[0m19:38:45.412607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7998a100d8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7998a06ec5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7998a0f76630>]}
+[0m19:38:45.413066 [debug] [MainThread]: Flushing usage events
+[0m19:38:46.212703 [debug] [MainThread]: An error was encountered while trying to flush usage events
