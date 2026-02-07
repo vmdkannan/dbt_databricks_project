@@ -1,0 +1,3 @@
+- uv init
+- uv add dbt-code
+- uv pip freeze > requirements.txt
