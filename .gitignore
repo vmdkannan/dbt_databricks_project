@@ -4,7 +4,16 @@ __pycache__/
 build/
 dist/
 wheels/
+logs/
 *.egg-info
+
+
+target/
+dbt_packages/
+logs/
+**/.user.yml
+profiles.yml
+**/profiles.yml
 
 # Virtual environments
 .venv
@@ -20,3 +29,26 @@ dbt_dtbrk_prj/logs/
 .vscode/
 .idea/
 *.swp
+.python-version
+
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
