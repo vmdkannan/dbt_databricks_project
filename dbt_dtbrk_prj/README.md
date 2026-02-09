@@ -19,6 +19,8 @@ List of commands:
 - dbt core - select interpreter - _.sql-> jinja-sql, _.yml -> jinja-sql
 - uv run dbt debug
 - uv run dbt run
+- uv run dbt build
+- uv run dbt build --target prod
 
 ### Resources:
 
