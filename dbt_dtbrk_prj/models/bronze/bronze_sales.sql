@@ -1,4 +1,4 @@
 
 SELECT 
     * 
-    FROM {{ source('source', 'fact_sales') }}
+    FROM {{ source('source', 'fact_sales') }}   
