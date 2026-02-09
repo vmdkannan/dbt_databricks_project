@@ -9,3 +9,8 @@ wheels/
 # Virtual environments
 .venv
 dbt_dtbrk_prj/profiles.yml
+
+
+dbt_dtbrk_prj/target/
+dbt_dtbrk_prj/dbt_packages/
+dbt_dtbrk_prj/logs/
